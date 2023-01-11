@@ -1,6 +1,5 @@
 function letterCombinations(input_digit) {
   //Complete the function
-	 //Complete the function
   if (input_digit == null || input_digit.length === 0) return [];
 
   const map = {
@@ -28,7 +27,6 @@ function letterCombinations(input_digit) {
 
   go(0, '');
   return res;
-}
 }
 
 module.exports = letterCombinations;
